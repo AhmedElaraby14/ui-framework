@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <listeners>
+        <listener class-name="StepDefinitions.TestListener"/>
+    </listeners>
+    <test name="TestRunner">
+        <classes>
+            <class name="Runners.TestRunner"/>
+        </classes>
+    </test>
+</suite>

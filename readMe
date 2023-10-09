@@ -1,0 +1,20 @@
+## Steps to run the code locally
+
+1. You need to clone the repo so open the terminal and run this command 
+”git clone https://gitlab.com/pemo-io/pemo-ui-test.git”
+2. Open it with your IDE then check out the branch **“pemo-ui-framework”,**
+You can do it by GUI actions or by IDE terminal with this command “git checkout pemo-ui-framework”.
+3. Now, You can run any feature you need using GUI or terminal.
+4. At the end of the test, You will find **the report URL** in the console
+
+## Steps to run the code using the pipeline
+
+1. Open this URL https://gitlab.com/pemo-io/pemo-ui-test/-/tree/pemo-ui-framework?ref_type=heads
+2. From the left section choose the dropdown list “Build”.
+3. Then click on Pipeline.
+4. Then Run Pipeline.
+5. Choose the branch **“pemo-ui-framework”.**
+6. Click Run Pipeline Button.
+7. Finally, choose your environment, for now, will be **dev.**
+8. At the end of the test, You will find **the report URL** in the console
+9. In ****Artifacts,**** You will find another report of failed steps.
